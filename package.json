@@ -1,0 +1,23 @@
+{
+  "name": "discora-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx ./index.ts",
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discora": "^0.0.3",
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "tsx": "^4.19.1"
+  }
+}
